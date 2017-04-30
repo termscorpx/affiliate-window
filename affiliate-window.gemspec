@@ -64,15 +64,5 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<savon>, [">= 0.9.7"])
     s.add_dependency(%q<savon_model>, [">= 0.0.0"])
     s.add_dependency(%q<hashie>, [">= 0.0.0"])
-    s.add_dependency(%q<minitest>, [">= 0"])
-    s.add_dependency(%q<minitest-reporters>, [">= 0"])
-    s.add_dependency(%q<simplecov>, [">= 0"])
-    s.add_dependency(%q<fakeweb>, [">= 0"])
-    s.add_dependency(%q<mocha>, [">= 0"])
-    s.add_dependency(%q<bundler>, ["~> 1.0.0"])
-    s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
-    s.add_dependency(%q<rcov>, [">= 0"])
-    s.add_dependency(%q<rdoc>, [">= 0"])
   end
 end
-
